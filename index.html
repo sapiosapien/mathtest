@@ -52,6 +52,7 @@
           <div class="frame-337">
             <div class="text-10">Math Test Site</div>
           </div>
+          <form>
           <div class="frame-338">
             <div class="frame-337">
               <div class="text-11">Base Number</div>
@@ -64,8 +65,10 @@
           </div>
           <div class="frame-5">
             <div class="frame-339">
-              <button class="text-4">Calculate</button>
-            </div>
+              <!-- set button onClick method to call function we defined passing input values as parameters -->
+        <button type="button" onclick="callAPI(document.getElementById('base').value,document.getElementById('exponent').value)">CALCULATE</button>
+        </form>
+        </div>
           </div>
         </div>
       </div>
