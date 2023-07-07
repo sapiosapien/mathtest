@@ -432,3 +432,8 @@
   padding: 10px 89px;
   display: flex;
 }
+
+input[type="text"] {
+  border-radius: 5px;
+  padding: 5px;
+}
